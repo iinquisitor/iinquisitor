@@ -2,8 +2,8 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Запуск каждый день
-  workflow_dispatch:    # Возможность запуска вручную
+    - cron: "0 0 * * *"  # каждый день
+  workflow_dispatch:
 
 jobs:
   generate-snake:
@@ -19,11 +19,19 @@ jobs:
           github_user_name: iinquisitor
           outputs: |
             ./github-contribution-grid-snake.svg
+          # 👇 Кастомные улучшения
+          color_snake: "#00FF00"            # Цвет змейки (ярко-зеленый)
+          color_dots: "#444444,#666666,#888888,#aaaaaa,#cccccc"  # Градиент цветов для пульсации
+          background_color: "#0d1117"        # Тёмный фон GitHub
+          speed: 1                           # Скорость нормальная
+          pixel_size: 10                     # Размер ячеек
+          frame_rate: 30                     # Плавность (30 кадров в секунду)
+          color_dot_animate: true             # 🔥 ВКЛЮЧАЕМ ПУЛЬСАЦИЮ ТОЧЕК
 
       - name: Commit and Push
         uses: EndBug/add-and-commit@v9
         with:
           author_name: GitHub Actions
           author_email: actions@github.com
-          message: "Update generated snake animation"
+          message: "Update generated snake animation with pulse effect"
           add: "github-contribution-grid-snake.svg"
