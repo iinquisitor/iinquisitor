@@ -1,0 +1,28 @@
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Запуск каждый день в 00:00 по UTC
+  workflow_dispatch:  # Запуск вручную из интерфейса GitHub
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate Snake animation
+        uses: Platane/github-profile-3d-contrib@v2.0.0
+        with:
+          github_user: 'iinquisitor'  # Ваш GitHub юзер
+          svg_out_path: './github-contribution-grid-snake.svg'  # Путь к файлу svg
+
+      - name: Commit and push Snake animation
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: 'GitHub Actions'
+          author_email: 'actions@github.com'
+          message: 'Updated Snake animation'
+          add: './github-contribution-grid-snake.svg'
