@@ -14,16 +14,26 @@
 
 ## 🛠️ Технологии, с которыми работаю:
 
-<p align="center">
+<!--<p align="center">
   <img src="https://skillicons.dev/icons?i=php,sql,qt,cpp,python,html,js,yaml,json" alt="Skills" />
-</p>
+</p>-->
+
+![PHP](https://img.shields.io/badge/-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Qt](https://img.shields.io/badge/-Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![C++](https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![YAML](https://img.shields.io/badge/-YAML-000000?style=for-the-badge&logo=yaml&logoColor=white)
+![JSON](https://img.shields.io/badge/-JSON-292929?style=for-the-badge&logo=json&logoColor=white)
 
 ---
 
 ## 🎯 Сейчас в фокусе:
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&multiline=true&width=600&height=100&lines=🎮+Изучаю+C%2B%2B+для+геймдева;📦+Осваиваю+Java+для+плагинов+и+ПО;🛠️+Мечтаю+собирать+самописные+сервера" alt="Изучаю сейчас" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&width=600&lines=🎮+Изучаю+C%2B%2B+для+геймдева;📦+Осваиваю+Java+для+своих+проектов;🛠️+Хочу+собрать+самописный+сервер" alt="Изучаю сейчас" />
 </p>
 
 ---
