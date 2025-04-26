@@ -32,9 +32,9 @@
 
 ## 🎯 Сейчас в фокусе:
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&width=600&lines=🎮+Изучаю+C%2B%2B+для+геймдева;📦+Осваиваю+Java+для+своих+проектов;🛠️+Хочу+собрать+самописный+сервер" alt="Изучаю сейчас" />
-</p>
+- 🎮 Изучаю C++ для геймдева
+- 📦 Осваиваю Java для своих проектов
+- 🛠️ Хочу собрать самописный сервер
 
 ---
 
@@ -61,13 +61,12 @@
 
 ---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0e99b3&height=120&section=footer" />
-</p>
-
 ## 🐍 Моя активность:
 
 <p align="center">
-  <img src="https://github.com/iinquisitor/iinquisitor/raw/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/iinquisitor/iinquisitor/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0e99b3&height=120&section=footer" />
+</p>
