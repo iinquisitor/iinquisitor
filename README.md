@@ -64,3 +64,10 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0e99b3&height=120&section=footer" />
 </p>
+
+## 🐍 Моя активность:
+
+<p align="center">
+  <img src="https://github.com/iinquisitor/iinquisitor/raw/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</p>
+
